@@ -44,7 +44,7 @@ export default function RegisterScreen() {
       return;
     }
     try {
-      const { data } = await axios.post('/api/users/register', {
+      const { data } = await axios.post('/api/register', {
         name,
         email,
         password,

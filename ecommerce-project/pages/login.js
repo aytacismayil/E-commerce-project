@@ -36,7 +36,7 @@ export default function LoginScreen() {
   const { enqueueSnackbar } = useSnackbar();
   const submitHandler = async ({ email, password }) => {
     try {
-      const { data } = await axios.post('/api/users/login', {
+      const { data } = await axios.post('/api/login', {
         email,
         password,
       });
