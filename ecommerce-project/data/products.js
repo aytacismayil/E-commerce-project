@@ -1,0 +1,48 @@
+export const products = [
+  {
+    id: 1,
+    name: "T-shirt",
+    price: 23,
+    image: "https://cms.cloudinary.vpsvc.com//image/fetch/q_auto:eco,w_700,f_auto,dpr_auto/https://s3-eu-west-1.amazonaws.com/sitecore-media-bucket/prod%2Fen%2F%7B41ED0F83-1DC4-4568-B273-4DBCCE756419%7D",
+    description: "lorem ipsun",
+    slug: "1",
+    countInStock: "Unavailable",
+  },
+  {
+    id: 2,
+    name: "Trousers",
+    price: 40,
+    image: "https://cdn.outfitbook.fr/24022-thickbox_default/tailored-straight-leg-trousers-taupe.jpg",
+    description: "lorem ipsun",
+    slug: "2",
+    countInStock: "In stock",
+    
+  },
+  {
+    id: 3,
+    name: "Skirt",
+    price: 10,
+    image: "https://media.istockphoto.com/photos/red-elegant-skirt-with-ribbon-bow-isolated-on-white-picture-id882157056?k=20&m=882157056&s=612x612&w=0&h=7FTTXCyF6z0ziAKhjKS1uptuxl5ym9RcGmMD0IZoumo=",
+    description: "lorem ipsun",
+    slug: "3",
+    countInStock: "Unavailable",
+  },
+  {
+    id: 4,
+    name: "Jeans",
+    price: 33,
+    image: "https://assets.ajio.com/medias/sys_master/root/h09/hcd/12085139111966/-1117Wx1400H-440794191-mediumblue-MODEL.jpg",
+    description: "lorem ipsun",
+    slug: "4",
+    countInStock: "In stock",
+  },
+  {
+    id: 5,
+    name: "Shirts",
+    price: 7,
+    image: "https://mms-images-prod.imgix.net/mms/images/catalog/b514e0f66ff205753fe387aa57e0fa2d/styles/116200/catalog_detail_image.jpg?ixlib=rails-2.1.4&w=200&h=200&sharp=10&q=85&dpr=1&trim=auto&trimmd=0&fit=fill&bg=ffffff&fm=pjpg&auto=format",
+    description: "lorem ipsun",
+    slug: "5",
+    countInStock: "Unavailable",
+  },
+];
