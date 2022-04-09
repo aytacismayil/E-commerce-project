@@ -1,4 +1,4 @@
-export const products = [
+export const user = [
   {
     id: 1,
     name: "Aytac",

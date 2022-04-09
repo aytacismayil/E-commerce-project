@@ -1,4 +1,4 @@
-export const products = [
+export const login = [
     {
       id: 1,
       name: "Aytac",
